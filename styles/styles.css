@@ -8,13 +8,13 @@
   --footer-bckgrd: #2f303a;
   --color-portfolio-bckgrd: #f5f5f5;
   --color-gray-block: #2f303a;
+  --color-button: #188ce8;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 26;
   color: var(--color-nav-hover);
   text-decoration: none;
 }
@@ -72,16 +72,16 @@ body {
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--color-white);
-  background-color: var(--color-gray-block);
+  background-color: var(--color-nav-hover);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.button-out .btn:hover {
-  background-color: var(--color-nav-hover);
+.gray-block .btn:hover {
+  background-color: var(--color-button);
 }
-.button-out .btn:focus {
-  background-color: var(--color-nav-hover);
+.gray-block .btn:focus {
+  background-color: var(--color-button);
 }
 
 .h3-design {
@@ -182,30 +182,33 @@ body {
 .btn2 {
   font-family: "Roboto";
   font-weight: 500;
-  size: 16px;
+  font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
   text-align: center;
+  vertical-align: top;
   color: var(--color-nav-black);
   background-color: var(--color-brand);
   cursor: pointer;
   border-radius: 4px;
 }
 
-.button-out .btn2:hover {
+.upper-list-item .btn2:hover {
   background-color: var(--color-nav-hover);
+  color: var(--color-white);
 }
-.button-out .btn2:focus {
+.upper-list-item .btn2:focus {
   background-color: var(--color-nav-hover);
+  color: var(--color-white);
 }
 
 .h2-portfolio {
-  font-weight: 500;
-  size: 18px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   text-align: left;
   vertical-align: top;
-  letter-spacing: 0.06em;
 }
 
 .p-portfolio {
