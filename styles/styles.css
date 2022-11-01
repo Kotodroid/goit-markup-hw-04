@@ -1,1 +1,248 @@
-body {font-family: 'Roboto', sans-serif;}
+:root {
+  --color-nav-grey: #757575;
+  --color-nav-black: #212121;
+  --color-nav-hover: #2196f3;
+  --color-white: #ffffff;
+  --color-brand: #f5f4fa;
+  --li-dec: none;
+  --footer-bckgrd: #2f303a;
+  --color-portfolio-bckgrd: #f5f5f5;
+  --color-gray-block: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26;
+  color: var(--color-nav-hover);
+  text-decoration: none;
+}
+.logo-part2 {
+  color: #000000;
+}
+
+.list-decor {
+  list-style-type: var(--li-dec);
+}
+.navig-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+}
+
+.focus1 {
+  color: var(--color-nav-black);
+  text-decoration: none;
+}
+
+.navig-list .focus1:hover,
+.navig-list .focus1:focus {
+  color: var(--color-nav-hover);
+}
+
+.focus2 {
+  color: var(--color-nav-grey);
+  text-decoration: none;
+}
+
+.navig-list .focus2:hover,
+.navig-list .focus2:focus {
+  color: var(--color-nav-hover);
+}
+
+.gray-block {
+  background-color: var(--color-gray-block);
+}
+.h1-design {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.btn {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+  background-color: var(--color-gray-block);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-out .btn:hover {
+  background-color: var(--color-nav-hover);
+}
+.button-out .btn:focus {
+  background-color: var(--color-nav-hover);
+}
+
+.h3-design {
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-nav-black);
+}
+.h3-text {
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: var(--color-nav-grey);
+}
+.h2-design {
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-nav-black);
+}
+
+.ourteam-design {
+  background-color: var(--color-brand); /*width: 1600px;
+    height: 648px;*/
+}
+
+.h3-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(-color-nav-black);
+}
+.text-team {
+  font-size: 16px;
+  line-height: 1.2617;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-nav-grey);
+}
+
+.footer-design {
+  background: var(--footer-bckgrd);
+}
+.logo-part3 {
+  color: var(--color-white);
+}
+.footer-text1 {
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-text2 {
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.list-decor .footer-text1 {
+  color: var(--color-white);
+}
+
+.list-decor .footer-text2 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-decor .footer-text1:hover,
+.list-decor .footer-text1:focus {
+  color: var(--color-nav-hover);
+}
+
+.list-decor .footer-text2:hover,
+.list-decor .footer-text2:focus {
+  color: var(--color-nav-hover);
+}
+
+.portfolio-pics {
+  width: 1170px;
+  height: 1360px;
+  background: var(--color-portfolio-bckgrd);
+}
+
+.upper-list-block {
+  width: 575px;
+  height: 54px;
+}
+
+.upper-list-item {
+  width: 125px;
+  height: 38px;
+}
+
+.btn2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--color-nav-black);
+  background-color: var(--color-brand);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-out .btn2:hover {
+  background-color: var(--color-nav-hover);
+}
+.button-out .btn2:focus {
+  background-color: var(--color-nav-hover);
+}
+
+.h2-portfolio {
+  font-weight: 500;
+  size: 18px;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.06em;
+}
+
+.p-portfolio {
+  font-size: 16px;
+  line-height: 1;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 270px;
+  max-height: 264px;
+  overflow: hidden;
+}
+
+.wrapper1 {
+  max-width: 370px;
+  max-height: 294px;
+  overflow: hidden;
+}
+.wrapper2 {
+  max-width: 370px;
+  max-height: 294px;
+  overflow: hidden;
+}
+
+.wrapper > img {
+  display: block;
+}
+
+.wrapper1 > img {
+  display: block;
+}
