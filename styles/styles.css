@@ -19,6 +19,7 @@ body {
   text-decoration: none;
 }
 .logo-part2 {
+  font-family: "Raleway", sans-serif;
   color: #000000;
 }
 
@@ -131,6 +132,7 @@ body {
 }
 .logo-part3 {
   color: var(--color-white);
+  font-family: "Raleway", sans-serif;
 }
 .footer-text1 {
   font-size: 14px;
