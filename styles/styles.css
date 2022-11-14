@@ -383,12 +383,17 @@ button {
 .member-contacts-item:focus{
   background-color: #2196F3;
 }
-.svg-design{
+.svg-design-team{
   width:20px;
   height: 20px;
   position: center;
   margin: 25%;
   fill:#757575;
+}
+
+.svg-design-team:hover{
+  background-color: #2196F3;
+  fill: white;
 }
 
 .ourteam-decor {
@@ -397,10 +402,6 @@ button {
   filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.12));
   filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.14));
   filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.2));
-}
-
-.svg-design:hover{
-  background-color: #2196F3;
 }
 
 .team-icon{
