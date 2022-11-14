@@ -308,7 +308,6 @@ button {
 .ourteam-members{
   display: flex;
   list-style-type: none;
-  background-color: green; 
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -321,7 +320,6 @@ button {
 .ourteam-item{
   width: 270px;
   height: 428px; 
-  background-color: gold;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -366,7 +364,6 @@ button {
 .member-contacts{
   display: flex;
   list-style-type: none;
-  background-color: violet; 
   width: 206px;
   padding-left: 0;
   padding-right: 0;
@@ -375,7 +372,6 @@ button {
 }
 
 .member-contacts-item{
-  background-color: mediumpurple;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -435,6 +431,10 @@ button {
 }
 
 .item-our-clients:hover{
+  border-color: #2196F3;
+}
+
+.item-our-clients:focus{
   border-color: #2196F3;
 }
 
@@ -537,7 +537,6 @@ justify-content: space-between;
   height: 20px;
   position: center;
   fill: white;
-  background-color: teal;
 }
 .follow-circle
 {background-color: rgba(255, 255, 255, 0.1);}
