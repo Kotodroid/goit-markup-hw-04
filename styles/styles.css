@@ -578,6 +578,9 @@ justify-content: space-between;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
 }
 .prtf-flex-item:hover{
   border: 1px solid #EEEEEE;
@@ -585,16 +588,6 @@ justify-content: space-between;
 }
 
 .prtf-text {
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-top-style: solid;
-  border-color: #eeeeee;
-  border-top-width: 0.01px;
-  border-top-color: transparent;
   margin-top: 20px;
 }
 
@@ -654,12 +647,14 @@ justify-content: space-between;
 }
 
 .h2-portfolio {
+  width: 322px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-nav-black);
   text-align: left;
+  overflow-wrap: none;
   margin-bottom: 4;
   margin-left: 24px;
   margin-right: 24px;
