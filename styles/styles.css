@@ -388,7 +388,7 @@ button {
   height: 20px;
   position: center;
   margin: 25%;
-  fill:#757575;
+  fill:#AFB1B8;
 }
 
 .svg-design-team:hover{
@@ -442,7 +442,7 @@ button {
 .svg-ourclient{
   width: 106px;
   height: 60px;
-  fill:#757575;
+  fill:#AFB1B8;
   display: block;
   margin: auto;
   margin-top: 16px;
