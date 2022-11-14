@@ -106,6 +106,24 @@ button {
 .navig-contacts .list-margin + .list-margin {
   margin-left: 50px;
 }
+
+.header-cont{
+  height: 16px;
+  display: flex;
+  padding-left: 0;
+}
+.svg-header{
+  width: 10px;
+  height: 16px;
+  fill:#757575;
+  background-color: greenyellow;
+  margin-right: 10px;
+}
+
+.svg-header:hover{
+  fill: #2196F3;
+}
+
 /*-----------Gray Block-----------*/
 .container {
   width: 1200px;
