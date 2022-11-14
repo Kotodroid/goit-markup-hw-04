@@ -454,7 +454,6 @@ button {
 
 /*-------------- Footer ---------------*/
 .footer-design {
-  margin-top: 94px;
   margin-right: 70px;
   margin-top: 60px;
 }
@@ -463,6 +462,7 @@ button {
 display: flex;
 padding-left: 0;
 padding-right: 0;
+margin-top: 94px;
 background: var(--footer-bckgrd);
 }
 
@@ -579,6 +579,10 @@ justify-content: space-between;
   margin-right: 30px;
   margin-bottom: 30px;
 }
+.prtf-flex-item:hover{
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .prtf-text {
   border-right-style: solid;
@@ -591,6 +595,7 @@ justify-content: space-between;
   border-color: #eeeeee;
   border-top-width: 0.01px;
   border-top-color: transparent;
+  margin-top: 20px;
 }
 
 .prtf-flex-item:nth-child(3n) {
@@ -655,11 +660,10 @@ justify-content: space-between;
   letter-spacing: 0.06em;
   color: var(--color-nav-black);
   text-align: left;
-  vertical-align: top;
-  margin-top: 20;
   margin-bottom: 4;
   margin-left: 24px;
   margin-right: 24px;
+  margin-top: 0;
 }
 
 .p-portfolio {
