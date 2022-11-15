@@ -22,6 +22,10 @@ button {
 .whole-nav {
   display: flex;
   align-items: center;
+  border: 1px;
+  border-style: solid;
+  border-color: #ECECEC;
+  margin-bottom: 94px;
 }
 
 .header-logo {
@@ -613,9 +617,6 @@ justify-content: space-between;
   margin-right: auto;
   margin-bottom: 34px;
   justify-content: space-between;
-}
-
-.upper-list-item {
 }
 
 .btn2 {
